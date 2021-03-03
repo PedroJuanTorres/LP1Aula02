@@ -8,7 +8,7 @@ namespace IncDec
         {
             int a = 1;
             int b = 5;
-            int c = a++;
+            int c = a++ + --b;
             Console.WriteLine($"a = {a}");
             Console.WriteLine($"b = {b}");
             Console.WriteLine($"c = {c}");
